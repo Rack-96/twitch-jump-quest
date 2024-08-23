@@ -20,9 +20,9 @@ fill_from = Vector2(0.490826, 0.481651)
 
 [sub_resource type="Curve2D" id="Curve2D_achq8"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -272, 0, 0, 0, 0, 1, -538, 0, 0, 0, 0, 0, -810, 0, 0, 0, 0, -3, -1027, 0, 0, 0, 0, 0, -1216, 0, 0, 0, 0, -2, -1398, 0, 0, 0, 0, -2, -2003)
+"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -272, 0, 0, 0, 0, 1, -538, 0, 0, 0, 0, 0, -810, 0, 0, 0, 0, -3, -1027, 0, 0, 0, 0, 0, -1216, 0, 0, 0, 0, -2, -1398, 0, 0, 0, 0, -2, -1600, 0, 0, 0, 0, 0, -1800, 0, 0, 0, 0, 0, -2000, 0, 0, 0, 0, 0, -2200, 0, 0, 0, 0, 0, -2400, 0, 0, 0, 0, 0, -2600, 0, 0, 0, 0, 0, -2800, 0, 0, 0, 0, 0, -3000, 0, 0, 0, 0, 0, -3200, 0, 0, 0, 0, 0, -3400, 0, 0, 0, 0, 0, -3600)
 }
-point_count = 8
+point_count = 18
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e8cww"]
 size = Vector2(654, 127)
@@ -239,7 +239,7 @@ position = Vector2(364, 558)
 position = Vector2(786, -3282)
 
 [node name="DebugSpawnMarker2D" type="Marker2D" parent="."]
-position = Vector2(664, -1140)
+position = Vector2(309, 514)
 
 [node name="LevelCamera" type="Node2D" parent="."]
 position = Vector2(580, 387)
